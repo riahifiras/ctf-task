@@ -137,7 +137,6 @@ const submit = () => {
         gameoverWindow.style.display = "flex";
         container.style.display = "none";
         clearInterval(intervalId);
-        console.log(final);
     }
 }
 
