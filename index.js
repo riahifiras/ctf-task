@@ -133,7 +133,7 @@ const submit = () => {
         finalScoreTag.innerText = score;
         numberOfQuestionsTag.innerText = numberOfQuestions;
         localStorage.setItem("final", final);    
-        console.log(decryptMessage(final));
+        console.log(decryptMessage(final)+'.html');
         gameoverWindow.style.display = "flex";
         container.style.display = "none";
         clearInterval(intervalId);
