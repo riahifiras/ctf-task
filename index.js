@@ -133,7 +133,7 @@ const submit = () => {
         nextBtn.style.display = "none";
         finalScoreTag.innerText = score;
         numberOfQuestionsTag.innerText = numberOfQuestions;
-        localStorage.setItem("final", final)
+        localStorage.setItem("final", final);
         gameoverWindow.style.display = "flex";
         container.style.display = "none";
         clearInterval(intervalId);
@@ -164,6 +164,7 @@ async function fetchData() {
 
 async function initialize() {
     try {
+        localStorage.setItem("final", "");
         gameoverWindow.style.display = "none";
         alertTag.innerText = "";
         container.style.display = "flex";
