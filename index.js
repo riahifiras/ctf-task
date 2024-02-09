@@ -73,7 +73,6 @@ const loadNextQuestion = () => {
         gameoverWindow.style.display = "flex";
         container.style.display = "none";
         clearInterval(intervalId);
-        console.log(decryptMessage(final));
         return 0;
     }
     selectedAnswer = -1;
@@ -133,7 +132,8 @@ const submit = () => {
         nextBtn.style.display = "none";
         finalScoreTag.innerText = score;
         numberOfQuestionsTag.innerText = numberOfQuestions;
-        localStorage.setItem("final", final);
+        localStorage.setItem("final", final);    
+        console.log(decryptMessage(final));
         gameoverWindow.style.display = "flex";
         container.style.display = "none";
         clearInterval(intervalId);
