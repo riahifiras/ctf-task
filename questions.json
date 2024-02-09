@@ -1,0 +1,142 @@
+[
+  {
+    "questionText": "How do you select an HTML element with the id 'myElement' using JavaScript?",
+    "options": [
+      "document.getElementByName('myElement')",
+      "document.querySelector('#myElement')",
+      "document.getElementById('myElement')",
+      "document.selectElement('#myElement')"
+    ],
+    "correctOptionIndex": 2
+  },
+  {
+    "questionText": "What does CSS stand for?",
+    "options": [
+      "Cascading Style Sheets",
+      "Computer Style Sheets",
+      "Creative Style Sheets",
+      "Colorful Style Sheets"
+    ],
+    "correctOptionIndex": 0
+  },
+  {
+    "questionText": "What does the acronym 'HTML' stand for?",
+    "options": [
+      "Hyperlinks and Text Markup Language",
+      "Home Tool Markup Language",
+      "Hyper Text Markup Language",
+      "Hyperlink Text Management Language"
+    ],
+    "correctOptionIndex": 2
+  },
+  {
+    "questionText": "Which of the following is NOT a valid JavaScript data type?",
+    "options": [
+      "String",
+      "Boolean",
+      "Float",
+      "Object"
+    ],
+    "correctOptionIndex": 2
+  },
+  {
+    "questionText": "What is the correct way to access the value of an input element with the id 'myInput' using JavaScript?",
+    "options": [
+      "document.getElementById('myInput').value",
+      "document.querySelector('#myInput').textContent",
+      "document.getElementByName('myInput').value",
+      "document.querySelector('.myInput').value"
+    ],
+    "correctOptionIndex": 0
+  },
+  {
+    "questionText": "How do you change the inner text of an element with the id 'myElement' using JavaScript?",
+    "options": [
+      "document.getElementById('myElement').innerHTML = 'New Content';",
+      "document.getElementById('myElement').text = 'New Content';",
+      "document.querySelector('#myElement').innerText = 'New Content';",
+      "document.getElementByName('myElement').innerText = 'New Content';"
+    ],
+    "correctOptionIndex": 2
+  },
+  {
+    "questionText": "Which method is used to create a new HTML element in JavaScript?",
+    "options": [
+      "document.createElement()",
+      "document.newElement()",
+      "document.makeElement()",
+      "document.addNewElement()"
+    ],
+    "correctOptionIndex": 0
+  },
+  {
+    "questionText": "How do you remove an element with the id 'myElement' from the DOM using JavaScript?",
+    "options": [
+      "document.getElementByName('myElement').remove()",
+      "document.querySelector('#myElement').remove()",
+      "document.getElementById('myElement').remove()",
+      "document.removeElement('myElement')"
+    ],
+    "correctOptionIndex": 2
+  },
+  {
+    "questionText": "What is the correct way to declare a variable in JavaScript?",
+    "options": [
+      "variable x;",
+      "let x;",
+      "var x;",
+      "x;"
+    ],
+    "correctOptionIndex": 2
+  },
+  {
+    "questionText": "How do you convert a string to uppercase in JavaScript?",
+    "options": [
+      "string.toUpperCase()",
+      "toUpperCase(string)",
+      "string.upper()",
+      "toUpperCase()"
+    ],
+    "correctOptionIndex": 0
+  },
+  {
+    "questionText": "What does the 'typeof' operator return in JavaScript?",
+    "options": [
+      "The data type of a variable",
+      "The size of a variable",
+      "The value of a variable",
+      "The name of a variable"
+    ],
+    "correctOptionIndex": 0
+  },
+  {
+    "questionText": "Which function is used to find the length of a string in JavaScript?",
+    "options": [
+      "string.size()",
+      "string.length()",
+      "string.getSize()",
+      "lengthOfString(string)"
+    ],
+    "correctOptionIndex": 1
+  },
+  {
+    "questionText": "What is the correct way to comment a single line in JavaScript?",
+    "options": [
+      "// This is a comment",
+      "/* This is a comment */",
+      "<!-- This is a comment -->",
+      "' This is a comment"
+    ],
+    "correctOptionIndex": 0
+  },
+  {
+    "questionText": "How do you log a message to the console in JavaScript?",
+    "options": [
+      "console.print('message')",
+      "print('message')",
+      "console.log('message')",
+      "log('message')"
+    ],
+    "correctOptionIndex": 2
+  }
+]
